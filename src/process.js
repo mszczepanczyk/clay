@@ -146,7 +146,7 @@ async function processProfiles (profilesData) {
 }
 
 async function processFile (path) {
-  await sequelize.sync({ force: true }) // TODO
+  await sequelize.sync()
   const profilesData = await readJSON(path)
   await processProfiles(profilesData)
   const entities = await Entity.findAll({
