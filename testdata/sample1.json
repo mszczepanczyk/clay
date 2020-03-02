@@ -1,0 +1,36 @@
+[
+  {
+    "url": "https://twitter.com/aaa",
+    "entityType": "person",
+    "linksTo": [
+      "https://twitter.com/bbb",
+      "https://linkedin.com/aaa"
+    ]
+  },
+  {
+    "url": "https://linkedin.com/aaa",
+    "entityType": "person",
+    "linksTo": [
+      "https://twitter.com/aaa"
+    ]
+  },
+  {
+    "url": "https://bbb.com",
+    "entityType": "uncategorized",
+    "linksTo": []
+  },
+  {
+    "url": "https://example.com",
+    "entityType": "organization",
+    "linksTo": [
+      "https://www.twitter.com/aaa"
+    ]
+  },
+  {
+    "url": "http://aaa.com",
+    "entityType": "person",
+    "linksTo": [
+      "http://twitter.com/aaa"
+    ]
+  }
+]

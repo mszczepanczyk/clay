@@ -1,0 +1,15 @@
+[
+  {
+    "url": "https://www.twitter.com/aaa",
+    "entityType": "organization",
+    "linksTo": [
+      "https://www.facebook.com/aaa"
+    ]
+  },
+  {
+    "url": "https://www.facebook.com/aaa",
+    "entityType": "organization",
+    "linksTo": [
+    ]
+  }
+]

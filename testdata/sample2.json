@@ -1,0 +1,16 @@
+[
+  {
+    "url": "https://www.twitter.com/aaa",
+    "entityType": "person",
+    "linksTo": [
+      "https://example.com"
+    ]
+  },
+  {
+    "url": "https://www.example.com",
+    "entityType": "person",
+    "linksTo": [
+      "https://twitter.com/aaa"
+    ]
+  }
+]
