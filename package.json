@@ -1,0 +1,38 @@
+{
+  "name": "clay",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "bin": {
+    "clay": "./src/index.js"
+  },
+  "scripts": {
+    "docker:attach": "docker-compose exec dev /bin/bash",
+    "docker:up": "docker-compose up",
+    "lint": "standard",
+    "start": "node src/index.js",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "todo": "git grep -e TODO -e FIXME -e XXX"
+  },
+  "author": "Mariusz Szczepańczyk",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "normalize-url": "^5.0.0",
+    "pg": "^7.18.2",
+    "pg-hstore": "^2.3.3",
+    "ramda": "^0.27.0",
+    "sequelize": "^5.21.5"
+  },
+  "devDependencies": {
+    "jest": "^25.1.0",
+    "sqlite3": "^4.1.1",
+    "standard": "^14.3.1"
+  },
+  "jest": {
+    "setupFiles": [
+      "./jest.setup.js"
+    ]
+  }
+}
