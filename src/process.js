@@ -127,7 +127,8 @@ function processOneProfile (profileData) {
         await Entity.destroy({
           where: {
             id: entities.map(e => e.id)
-          }
+          },
+          transaction
         })
       }
     }
